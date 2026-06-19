@@ -324,36 +324,29 @@ The author thanks **Prof. Vasiliy Leonenko** for scientific supervision and cons
 
 ## References
 
-[1] R. Pastor-Satorras and A. Vespignani, "Epidemic spreading in scale-free networks," *Physical Review Letters*, vol. 86, no. 14, pp. 3200–3203, 2001. DOI: [10.1103/PhysRevLett.86.3200](https://doi.org/10.1103/PhysRevLett.86.3200).
+Pastor-Satorras & Vespignani (Phys. Rev. Lett., 2001)
+Established epidemic thresholds on scale-free networks; explained rapid global spread.
 
-[2] M. E. J. Newman, "Spread of epidemic disease on networks," *Physical Review E*, vol. 66, no. 1, p. 016128, 2002. DOI: [10.1103/PhysRevE.66.016128](https://doi.org/10.1103/PhysRevE.66.016128).
+Keeling & Eames (J. R. Soc. Interface, 2005)
+Identified degree distribution, clustering and assortativity as key determinants of outbreak dynamics.
 
-[3] M. J. Keeling and K. T. D. Eames, "Networks and epidemic models," *Journal of the Royal Society Interface*, vol. 2, no. 4, pp. 295–307, 2005. DOI: [10.1098/rsif.2005.0051](https://doi.org/10.1098/rsif.2005.0051).
+Rineer et al. (Nature Scientific Data, 2025)
+303M-person synthetic US population via Iterative Proportional Fitting. Limitation: static dataset, no disease simulation.
 
-[4] J. Rineer, R. Beidler, J. Aspinall, et al., "A synthetic population of the United States consisting of 303 million persons," *Scientific Data*, vol. 12, art. 117, 2025. DOI: [10.1038/s41597-025-04465-3](https://doi.org/10.1038/s41597-025-04465-3).
+Bilal et al. (CitySEIRCast, Springer, 2025)
+3D digital twin + ABM with mobility data. Limitation: computationally heavy, single US county.
 
-[5] A. Bilal, A. Cordova-Vargas, et al., "CitySEIRCast: An agent-based city digital twin for pandemic analytics," *BMC Public Health* / Springer Nature, 2024. DOI: [10.1186/s12889-024-19738-6](https://doi.org/10.1186/s12889-024-19738-6).
+Funk et al. (2010, 2015)
+Behavior-informed networks: infection probability depends on perceived risk.
 
-[6] S. Eubank, H. Guclu, V. S. A. Kumar, et al., "Modelling disease outbreaks in realistic urban social networks," *Nature*, vol. 429, pp. 180–184, 2004. DOI: [10.1038/nature02541](https://doi.org/10.1038/nature02541).
+Perra et al. (Scientific Reports, 2011)
+Activity-driven networks where node activity levels change over time.
 
-[7] S. Funk, M. Salathé, and V. A. A. Jansen, "Modelling the influence of human behaviour on the spread of infectious diseases: a review," *Journal of the Royal Society Interface*, vol. 7, no. 50, pp. 1247–1256, 2010. DOI: [10.1098/rsif.2010.0142](https://doi.org/10.1098/rsif.2010.0142).
+Zhang et al. (MDPI, 2025)
+Conceptual review of ABM vs compartmental/network models; lacks empirical validation.
+Identified Gap:
+No prior study compares static vs dynamic predictions across multiple urban topologies with both weekly patterns AND behavioral adaptation, validated against real data.
 
-[8] S. Funk, S. Bansal, C. T. Bauch, et al., "Nine challenges in incorporating the dynamics of behaviour in infectious diseases models," *Epidemics*, vol. 10, pp. 21–25, 2015. DOI: [10.1016/j.epidem.2014.09.005](https://doi.org/10.1016/j.epidem.2014.09.005).
 
-[9] N. Perra, B. Gonçalves, R. Pastor-Satorras, and A. Vespignani, "Activity driven modeling of time varying networks," *Scientific Reports*, vol. 2, art. 469, 2012. DOI: [10.1038/srep00469](https://doi.org/10.1038/srep00469).
-
-[10] M. Karsai, N. Perra, and A. Vespignani, "Time varying networks and the weakness of strong ties," *Scientific Reports*, vol. 4, art. 4001, 2014. DOI: [10.1038/srep04001](https://doi.org/10.1038/srep04001).
-
-[11] A. Aleta, D. Martín-Corral, A. Pastore y Piontti, et al., "Modelling the impact of testing, contact tracing and household quarantine on second waves of COVID-19," *Nature Human Behaviour*, vol. 4, pp. 964–971, 2020. DOI: [10.1038/s41562-020-0931-9](https://doi.org/10.1038/s41562-020-0931-9).
-
-[12] S. Chang, E. Pierson, P. W. Koh, et al., "Mobility network models of COVID-19 explain inequities and inform reopening," *Nature*, vol. 589, pp. 82–87, 2021. DOI: [10.1038/s41586-020-2923-3](https://doi.org/10.1038/s41586-020-2923-3).
-
-[13] Y. Zhang, X. Li, Y. Wang, et al., "A review of agent-based, compartmental, and network-based models for COVID-19," *Mathematics* (MDPI), vol. 13, no. 4, art. 612, 2025. DOI: [10.3390/math13040612](https://doi.org/10.3390/math13040612).
-
-[14] Q. Li, X. Guan, P. Wu, et al., "Early transmission dynamics in Wuhan, China, of novel coronavirus–infected pneumonia," *New England Journal of Medicine*, vol. 382, pp. 1199–1207, 2020. DOI: [10.1056/NEJMoa2001316](https://doi.org/10.1056/NEJMoa2001316).
-
-[15] Google LLC, "COVID-19 Community Mobility Reports," 2020–2022. Available: [https://www.google.com/covid19/mobility/](https://www.google.com/covid19/mobility/).
-
----
 
 *Manuscript prepared in IEEE-style format. Source files and reproduction instructions are available at the repository URL listed under the title.*

@@ -73,7 +73,6 @@ flowchart LR
 ├── results/                          # Final deliverables
 │   ├── data/                         # CSVs produced by experiments.py
 │   ├── Yasir-presentation-new.pptx
-│   └── Yasir-presentation-speaker-notes.pdf
 └── docs/
     ├── related_work.md               # Review of similar solutions
     └── preprint.md                   # IEEE-style preprint
